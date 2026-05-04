@@ -276,7 +276,7 @@ Run this script in a separate terminal on the Raspberry Pi:
 ```bash
 python3 ~/ros2_ws/src/rc_car_obstacle_detection/scripts/listen.py
 ```
-2. Command ReferenceThe script maps keyboard inputs to specific PWM duty cycles on the STM32 (TIM1 CH1 for Steering, CH3 for Motor):
+Command ReferenceThe script maps keyboard inputs to specific PWM duty cycles on the STM32 (TIM1 CH1 for Steering, CH3 for Motor):
 
 
 1 – Low Speed: Sets motor to M_SPEED_1.
