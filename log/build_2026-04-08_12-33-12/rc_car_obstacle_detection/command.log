@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/ros2_ws/src/rc_car_obstacle_detection -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rc_car_obstacle_detection
+Invoked command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/ros2_ws/src/rc_car_obstacle_detection -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rc_car_obstacle_detection
+Invoking command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rc_car_obstacle_detection -- -j4 -l4
+Invoked command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rc_car_obstacle_detection -- -j4 -l4
+Invoking command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rc_car_obstacle_detection
+Invoked command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rc_car_obstacle_detection

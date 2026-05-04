@@ -1,0 +1,69 @@
+[0.029s] Invoking command in '/home/pi/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/ros2_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rf2o_laser_odometry
+[0.561s] -- The C compiler identification is GNU 13.3.0
+[1.047s] -- The CXX compiler identification is GNU 13.3.0
+[1.081s] -- Detecting C compiler ABI info
+[1.337s] -- Detecting C compiler ABI info - done
+[1.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.354s] -- Detecting C compile features
+[1.356s] -- Detecting C compile features - done
+[1.372s] -- Detecting CXX compiler ABI info
+[1.645s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.661s] -- Detecting CXX compile features
+[1.662s] -- Detecting CXX compile features - done
+[1.682s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.082s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.396s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.535s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.576s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.899s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.911s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.134s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.169s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.211s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.400s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.443s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.485s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.530s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.534s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.534s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.933s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.975s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.043s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[4.249s] -- Configuring done (4.2s)
+[4.291s] -- Generating done (0.0s)
+[4.301s] -- Build files have been written to: /home/pi/ros2_ws/build/rf2o_laser_odometry
+[4.331s] Invoked command in '/home/pi/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/ros2_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/rf2o_laser_odometry
+[4.333s] Invoking command in '/home/pi/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[4.439s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[4.440s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[4.440s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[147.010s] [ 80%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[147.011s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[149.111s] [100%] Built target rf2o_laser_odometry
+[150.431s] [100%] Built target rf2o_laser_odometry_node
+[150.557s] Invoked command in '/home/pi/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[150.561s] Invoking command in '/home/pi/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rf2o_laser_odometry
+[150.582s] -- Install configuration: ""
+[150.582s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[150.610s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[150.612s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[150.617s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[150.621s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[150.622s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[150.623s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[150.624s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[150.625s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[150.625s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[150.625s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[150.626s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[150.626s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[150.627s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[150.627s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[150.628s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[150.629s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[150.630s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[150.630s] -- Installing: /home/pi/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[150.637s] Invoked command in '/home/pi/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rf2o_laser_odometry

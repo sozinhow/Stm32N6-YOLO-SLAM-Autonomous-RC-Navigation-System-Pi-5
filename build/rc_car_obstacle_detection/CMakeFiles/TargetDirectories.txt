@@ -1,0 +1,12 @@
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/uninstall.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/rc_car_obstacle_detection_uninstall.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/ament_cmake_python_copy_rc_car_obstacle_detection.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/ament_cmake_python_copy_rc_car_obstacle_detection_setup.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/ament_cmake_python_build_rc_car_obstacle_detection_egg.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/test.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/edit_cache.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/rebuild_cache.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/list_install_components.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/install.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/install/local.dir
+/home/pi/ros2_ws/build/rc_car_obstacle_detection/CMakeFiles/install/strip.dir

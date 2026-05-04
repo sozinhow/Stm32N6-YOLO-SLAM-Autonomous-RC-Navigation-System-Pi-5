@@ -1,0 +1,19 @@
+cspc_lidar:
+  ros__parameters:
+    port: /dev/ttyUSB0
+    frame_id: laser_link
+    ignore_array: ""
+    baudrate: 230400
+    samp_rate: 9
+    resolution_fixed: true
+    singleChannel: false
+    auto_reconnect: true
+    reversion: true
+    isToFLidar: false
+    angle_max: 3.1416
+    angle_min: -3.1416
+    angle_increment: 0.004
+    max_range: 16.0
+    min_range: 0.01
+    frequency: 20.0
+    version: 4

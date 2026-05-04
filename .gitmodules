@@ -1,0 +1,6 @@
+[submodule "src/rc_car_obstacle_detection/rosbridge_suite"]
+	path = src/rc_car_obstacle_detection/rosbridge_suite
+	url = https://github.com/ros/rosbridge_suite.git
+[submodule "src/rf2o_laser_odometry"]
+	path = src/rf2o_laser_odometry
+	url = https://github.com/locusrobotics/rf2o_laser_odometry.git

@@ -1,0 +1,30 @@
+# RC Car Obstacle Detection Parameters (ROS 2 Jazzy)
+
+stm32_bridge:
+  ros__parameters:
+    serial_port: "/dev/ttyAMA0"
+    baud_rate: 115200
+
+lidar_processor:
+  ros__parameters:
+    detection_distance: 1.5      # meters
+    detection_angle: 60.0        # degrees (±30°)
+    min_points_threshold: 5      # minimum points to trigger
+    scan_topic: "/scan"          # From cspc_lidar_sdk_ros2
+    publish_obstacle_cloud: true # For costmap integration
+
+obstacle_fusion:
+  ros__parameters:
+    lidar_timeout: 0.5           # seconds
+    vision_timeout: 1.0          # seconds
+    emergency_cooldown: 2.0      # seconds
+    # Note: IMU is used for odometry/SLAM only, NOT for tilt detection
+
+costmap_publisher:
+  ros__parameters:
+    obstacle_height: 0.5         # meters (for 2D costmap)
+    person_radius: 0.5           # meters (safety margin around detected persons)
+    map_frame: "odom"            # or "map" if using SLAM
+    base_frame: "base_link"
+    publish_rate: 10.0           # Hz
+

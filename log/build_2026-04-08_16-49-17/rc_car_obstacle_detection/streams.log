@@ -1,0 +1,74 @@
+[0.015s] Invoking command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rc_car_obstacle_detection -- -j4 -l4
+[0.123s] Built target ament_cmake_python_copy_rc_car_obstacle_detection
+[0.123s] Built target ament_cmake_python_copy_rc_car_obstacle_detection_setup
+[0.416s] running egg_info
+[0.440s] writing rc_car_obstacle_detection.egg-info/PKG-INFO
+[0.441s] writing dependency_links to rc_car_obstacle_detection.egg-info/dependency_links.txt
+[0.444s] writing top-level names to rc_car_obstacle_detection.egg-info/top_level.txt
+[0.515s] reading manifest file 'rc_car_obstacle_detection.egg-info/SOURCES.txt'
+[0.516s] writing manifest file 'rc_car_obstacle_detection.egg-info/SOURCES.txt'
+[0.583s] Built target ament_cmake_python_build_rc_car_obstacle_detection_egg
+[0.607s] Invoked command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/ros2_ws/build/rc_car_obstacle_detection -- -j4 -l4
+[0.626s] Invoking command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rc_car_obstacle_detection
+[0.642s] -- Install configuration: "Release"
+[0.642s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/pythonpath.sh
+[0.642s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/pythonpath.dsv
+[0.642s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection-1.0.0-py3.12.egg-info
+[0.642s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection-1.0.0-py3.12.egg-info/dependency_links.txt
+[0.642s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection-1.0.0-py3.12.egg-info/PKG-INFO
+[0.642s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection-1.0.0-py3.12.egg-info/top_level.txt
+[0.642s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection-1.0.0-py3.12.egg-info/SOURCES.txt
+[0.642s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/rf2o_wrapper.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/lidar_processor.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/costmap_publisher.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/safety_controller.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/stm32_bridge.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/goal_sender.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/__init__.py
+[0.643s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection/obstacle_fusion.py
+[0.693s] Listing '/home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/python3.12/site-packages/rc_car_obstacle_detection'...
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/stm32_bridge.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/lidar_processor.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/obstacle_fusion.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/safety_controller.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/costmap_publisher.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/goal_sender.py
+[0.705s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/lib/rc_car_obstacle_detection/rf2o_wrapper.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/test_rf2o_minimal.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_test.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_manual_wrapper.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/rc_car_slam.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/full_system.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/obstacle_detection.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_imu.launch.py
+[0.706s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/simple_start.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_working.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_only.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/slam_simple.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/nav2_rf2o.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/launch/cartographer_slam.launch.py
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/config
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/config/rf2o.yaml
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/config/ekf_imu.yaml
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/config/params.yaml
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/cartographer_config
+[0.707s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/cartographer_config/cartographer.lua
+[0.708s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/cartographer_config/backpack_2d.lua
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/ament_index/resource_index/package_run_dependencies/rc_car_obstacle_detection
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/ament_index/resource_index/parent_prefix_path/rc_car_obstacle_detection
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/ament_prefix_path.sh
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/ament_prefix_path.dsv
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/path.sh
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/environment/path.dsv
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/local_setup.bash
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/local_setup.sh
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/local_setup.zsh
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/local_setup.dsv
+[0.708s] -- Installing: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/package.dsv
+[0.708s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/ament_index/resource_index/packages/rc_car_obstacle_detection
+[0.709s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/cmake/rc_car_obstacle_detectionConfig.cmake
+[0.709s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/cmake/rc_car_obstacle_detectionConfig-version.cmake
+[0.709s] -- Up-to-date: /home/pi/ros2_ws/install/rc_car_obstacle_detection/share/rc_car_obstacle_detection/package.xml
+[0.710s] Invoked command in '/home/pi/ros2_ws/build/rc_car_obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/ros2_ws/build/rc_car_obstacle_detection

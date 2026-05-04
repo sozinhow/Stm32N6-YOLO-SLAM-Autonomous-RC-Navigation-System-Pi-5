@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4b64ccc546febd8df153.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rc_car_obstacle_detection",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rc_car_obstacle_detection_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rc_car_obstacle_detection_egg-Release-1031c23b027b94764e31.json",
+					"name" : "ament_cmake_python_build_rc_car_obstacle_detection_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rc_car_obstacle_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rc_car_obstacle_detection-Release-5a1a7044f989083bfe65.json",
+					"name" : "ament_cmake_python_copy_rc_car_obstacle_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rc_car_obstacle_detection_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rc_car_obstacle_detection_setup-Release-820d962e41c9661c653f.json",
+					"name" : "ament_cmake_python_copy_rc_car_obstacle_detection_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_car_obstacle_detection_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_car_obstacle_detection_uninstall-Release-280975366fd9d084d721.json",
+					"name" : "rc_car_obstacle_detection_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fd97427323a9a4516744.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/ros2_ws/build/rc_car_obstacle_detection",
+		"source" : "/home/pi/ros2_ws/src/rc_car_obstacle_detection"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
