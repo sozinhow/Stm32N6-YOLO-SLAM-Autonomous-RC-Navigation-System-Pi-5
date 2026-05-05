@@ -163,24 +163,14 @@ Sensor Layer              Processing Layer                 Decision Layer       
 
 The system utilizes a staggered startup sequence to manage dependencies between sensor data, coordinate transforms, and navigation algorithms.
 
-### 1. Manual Bridges (Start First)
+### 1. Full system lanch (Start First)
 These scripts bridge the hardware to the ROS 2 environment. Open two separate terminals on the Raspberry Pi 5:
 
-*   **Terminal 1 (IMU):**
+*   **Terminal 1 (Ros node/Slam/nav2/lidar&imu driver):**
     ```bash
-    python3 yb_imu_bridge.py
+    ros2 launch rc_car_obstacle_detection full_nav.launch.py
     ```
-    *Starts the YB-MRA02 IMU data stream at 100Hz.*
-
-*   **Terminal 2 (STM32 Control):**
-    
-bash
-    python3 cmd_vel_to_stm32.py
-    ```
-    *Listens to `/cmd_vel` and sends serial commands to the STM32 N6570.*
-
-### 2. Primary Orchestrator: `nav2_slam.launch.py`
-Run the main launch file to start the navigation stack. It follows an internal timer to ensure stability:
+    Run the main launch file to start the navigation stack. It follows an internal timer to ensure stability:
 
 | Time | Component | Description |
 | :--- | :--- | :--- |
@@ -191,19 +181,20 @@ Run the main launch file to start the navigation stack. It follows an internal t
 | **30s** | **Lifecycle Manager** | Sequentially activates all nodes to the "Active" state. |
 
 
-bash
-ros2 launch rc_car_obstacle_detection nav2_slam.launch.py
-
-
-
-
+### 2.  Manual Bridges - handle the communication and control commands between ROS2 and STM32
+*   **Terminal 2 (STM32 Control):**
+    
+    ```bash
+    python3 ~/ros2_ws/src/rc_car_obstacle_detection/scripts/cmd_vel_to_stm32.py
+    ```
+    *Listens to `/cmd_vel` and sends serial commands to the STM32 N6570.*
 
 ---
 ## V. Deployment & Quick Start Guide
 
 ### 1. Build and Workspace Setup
 On the **Raspberry Pi 5**, ensure your ROS 2 workspace is compiled and the environment variables are sourced:
-bash
+```bash
 # Navigate to workspace
 cd ~/ros2_ws
 
@@ -212,32 +203,23 @@ colcon build --packages-select rc_car_obstacle_detection
 
 # Source the workspace
 source install/setup.bash
+```
 2. Execution Sequence
 The system requires a staggered startup to allow hardware drivers and lifecycle nodes to initialize correctly.
 
 Step 1: Start the Hardware Bridges (Terminal 1 & 2)
 Open two terminals to bridge the sensors and the STM32 controller:
 
-Terminal 1 (IMU):
+Terminal 1 (Ros node/Slam/nav2/lidar&imu driver):
 
-```Bash
-python3 ~/ros2_ws/src/rc_car_obstacle_detection/scripts/yb_imu_bridge.py
-Terminal 2 (STM32 Control):
-Note: This can also be started after the navigation stack is active (Step 3).
-```
-```Bash
-python3 ~/ros2_ws/src/rc_car_obstacle_detection/scripts/cmd_vel_to_stm32.py
-Step 3: Launch Autonomous Navigation (Terminal 3)
-Run the main orchestrator launch file. This file manages the 6s/15s/30s delays for SLAM and Nav2 automatically:
-```
 ```Bash
 # Source ROS 2 Jazzy and workspace
 source /opt/ros/jazzy/setup.bash
 source ~/ros2_ws/install/setup.bash
+ros2 launch rc_car_obstacle_detection full_nav.launch.py
 ```
-```# Launch SLAM and Navigation
-ros2 launch rc_car_obstacle_detection nav2_slam.launch.py
-Step 4: Verify Lifecycle Activation
+
+Step 2: Verify Lifecycle Activation
 Wait 35 seconds after launching for the auto-activation script to finish. Run these commands to ensure all servers are active:
 ```
 ```Bash
@@ -246,6 +228,13 @@ ros2 lifecycle list /planner_server
 ros2 lifecycle list /bt_navigator
 ros2 lifecycle list /behavior_server
 ros2 lifecycle list /collision_monitor
+```
+
+Terminal 2 (STM32 Control):
+Note: This started after the navigation stack is active (Step 3).
+
+```Bash
+python3 ~/ros2_ws/src/rc_car_obstacle_detection/scripts/cmd_vel_to_stm32.py
 ```
 
 3. Testing and Interaction
@@ -258,7 +247,7 @@ ros2 topic echo /cmd_vel
 ```
 VI. Troubleshooting
 Node Activation: If lifecycle nodes remain in the unconfigured state after 40 seconds, restart the nav2_slam.launch.py.
-```
+
 Serial Communication: Ensure /dev/ttyUSB0 (LiDAR), /dev/ttyUSB1 (IMU), and /dev/ttyAMA0 (STM32) have the correct permissions:
 
 ```Bash
