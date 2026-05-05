@@ -1,4 +1,4 @@
-# RC Car Autonomous Navigation System — Architecture & Details
+# SLAM and Edge AI–Based Autonomous Mobile Robot System — Architecture & Details
 
 ---
 ## I. System Architecture Diagram
