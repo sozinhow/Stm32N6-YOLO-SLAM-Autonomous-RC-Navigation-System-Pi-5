@@ -1,5 +1,5 @@
 # SLAM and Edge AI–Based Autonomous Mobile Robot System — Architecture & Details
-
+Demo Video: https://youtu.be/_l2b3o806oM 
 ---
 ## I. System Architecture Diagram
 
